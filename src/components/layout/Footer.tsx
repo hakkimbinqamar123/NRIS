@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { NRISLogo } from '@/components/ui/Logo';
 
 export function Footer() {
   return (
@@ -7,9 +8,8 @@ export function Footer() {
         
         {/* Brand */}
         <div className="space-y-6">
-          <div className="text-3xl font-bold tracking-tight bg-white inline-block px-4 py-2 rounded-lg">
-            <span className="text-[#1f1f1f]">NR</span>
-            <span className="text-[#f5ebd0]">IS</span>
+          <div className="text-white">
+            <NRISLogo className="h-12 w-auto" />
           </div>
           <p className="text-sm text-gray-400">
             Providing comprehensive and progressive insurance solutions to safeguard your assets, business, and loved ones.

@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { Magnetic } from '@/animations/Magnetic';
+import { NRISLogo } from '@/components/ui/Logo';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,9 +55,8 @@ export function Header() {
       <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         <Magnetic>
           <Link href="/" className="flex items-center gap-2 relative z-50">
-            <div className="text-3xl font-extrabold tracking-tight">
-              <span className="text-white">NR</span>
-              <span className="text-[#f5ebd0]">IS</span>
+            <div className="text-white hover:text-white/80 transition-colors">
+              <NRISLogo className="h-12 w-auto" />
             </div>
           </Link>
         </Magnetic>
