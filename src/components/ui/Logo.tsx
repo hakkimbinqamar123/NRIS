@@ -2,7 +2,7 @@ export function NRISLogo({ className = "w-32 h-auto" }: { className?: string }) 
   const blueColor = "#0066cc";
 
   return (
-    <svg viewBox="0 0 190 100" className={className} xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 220 100" className={className} xmlns="http://www.w3.org/2000/svg">
       <text 
         x="5" 
         y="80" 
