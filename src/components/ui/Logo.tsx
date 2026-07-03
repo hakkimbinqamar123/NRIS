@@ -20,20 +20,24 @@ export function NRISLogo({ className = "w-32 h-auto" }: { className?: string }) 
       />
 
       {/* Stem of the 'I' */}
-      <rect x="120" y="50" width="10" height="25" rx="2" fill={blueColor} />
+      <rect x="120" y="45" width="10" height="30" rx="2" fill={blueColor} />
 
-      {/* Umbrella Canopy with Asymmetrical Scallops */}
+      {/* Umbrella Canopy with Bell Shape and Top Spike */}
       <path 
         d="M 75 55 
-           A 50 50 0 0 1 175 55 
+           C 75 25, 100 10, 123 10
+           L 123 6
+           Q 125 3 127 6
+           L 127 10
+           C 150 10, 175 25, 175 55
            A 22 22 0 0 0 135 55
            A 12 12 0 0 0 115 55
            A 22 22 0 0 0 75 55 Z" 
         fill={redColor} 
       />
 
-      {/* Dot of the 'I' */}
-      <circle cx="125" cy="28" r="5.5" fill={blueColor} />
+      {/* Dot of the 'I' (Oval) */}
+      <ellipse cx="125" cy="28" rx="4.5" ry="7.5" fill={blueColor} />
     </svg>
   );
 }
