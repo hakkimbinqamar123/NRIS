@@ -8,8 +8,8 @@ export function Footer() {
         
         {/* Brand */}
         <div className="space-y-6">
-          <div className="text-white">
-            <NRISLogo className="h-12 w-auto" />
+          <div className="flex items-center justify-start">
+            <NRISLogo className="h-10 w-auto" />
           </div>
           <p className="text-sm text-gray-400">
             Providing comprehensive and progressive insurance solutions to safeguard your assets, business, and loved ones.

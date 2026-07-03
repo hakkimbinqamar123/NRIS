@@ -55,8 +55,8 @@ export function Header() {
       <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         <Magnetic>
           <Link href="/" className="flex items-center gap-2 relative z-50">
-            <div className="text-white hover:text-white/80 transition-colors">
-              <NRISLogo className="h-12 w-auto" />
+            <div className="flex items-center justify-center hover:opacity-80 transition-opacity">
+              <NRISLogo className="h-10 w-auto" />
             </div>
           </Link>
         </Magnetic>
