@@ -20,7 +20,7 @@ export default function EngineeringInsurancePage() {
           <ul className="space-y-4 text-gray-600">
             <li className="flex items-start gap-3">
               <span className="text-[#d4af37] font-bold">✓</span>
-              Contractor's All Risk (CAR) Insurance
+              Contractor&apos;s All Risk (CAR) Insurance
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#d4af37] font-bold">✓</span>
@@ -28,7 +28,7 @@ export default function EngineeringInsurancePage() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#d4af37] font-bold">✓</span>
-              Contractor's Plant & Machinery (CPM)
+              Contractor&apos;s Plant & Machinery (CPM)
             </li>
             <li className="flex items-start gap-3">
               <span className="text-[#d4af37] font-bold">✓</span>

@@ -43,7 +43,7 @@ export function TestimonialsSection() {
               <span className="text-[#1f1f1f] text-sm font-bold tracking-wide uppercase">Client Stories</span>
             </div>
             <h3 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-[#0a0a0a] leading-tight whitespace-nowrap">
-              Don't just take our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1f1f1f] to-[#f5ebd0]">word for it</span>
+              Don&apos;t just take our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1f1f1f] to-[#f5ebd0]">word for it</span>
             </h3>
           </motion.div>
         </div>
@@ -81,7 +81,7 @@ export function TestimonialsSection() {
                 </div>
                 
                 <p className="text-gray-600 mb-10 flex-grow text-lg leading-relaxed italic">
-                  "{testimonial.content}"
+                  &quot;{testimonial.content}&quot;
                 </p>
                 
                 <div className="flex items-center gap-4">

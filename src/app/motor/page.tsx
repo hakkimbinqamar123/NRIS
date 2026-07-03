@@ -1,6 +1,5 @@
 import { PageHero } from "@/components/common/PageHero";
 import { Metadata } from "next";
-import { SplitText } from '@/animations/SplitText';
 import { ImageReveal } from '@/animations/ImageReveal';
 import { LiquidButton } from '@/animations/LiquidButton';
 import * as motion from 'framer-motion/client';

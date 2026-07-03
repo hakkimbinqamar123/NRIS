@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
 import { Magnetic } from './Magnetic';
-import useMousePosition from '@/hooks/useMousePosition';
 
 interface LiquidButtonProps {
   children: ReactNode;

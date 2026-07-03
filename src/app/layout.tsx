@@ -7,7 +7,6 @@ import { Footer } from "@/components/layout/Footer";
 import { FloatingContact } from "@/components/layout/FloatingContact";
 import { LenisProvider } from "@/components/providers/LenisProvider";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
-import { CustomCursor } from "@/animations/CustomCursor";
 import { PageTransition } from "@/animations/PageTransition";
 
 const outfit = Outfit({
