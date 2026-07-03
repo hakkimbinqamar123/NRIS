@@ -3,37 +3,37 @@ export function NRISLogo({ className = "w-32 h-auto" }: { className?: string }) 
   const redColor = "#ed1c24";
 
   return (
-    <svg viewBox="0 0 250 100" className={className} xmlns="http://www.w3.org/2000/svg">
-      {/* Handle (Drawn first so the blue stem covers its top joint) */}
+    <svg viewBox="0 0 210 100" className={className} xmlns="http://www.w3.org/2000/svg">
+      {/* Text drawn first so it naturally tucks behind the umbrella canopy */}
+      {/* Using stroke/linejoin to guarantee a rounded, thick font appearance universally */}
+      <text x="5" y="85" fontFamily="Arial Black, Impact, sans-serif" fontSize="62" fontWeight="900" fill={blueColor} stroke={blueColor} strokeWidth="4" strokeLinejoin="round">N</text>
+      <text x="55" y="85" fontFamily="Arial Black, Impact, sans-serif" fontSize="62" fontWeight="900" fill={blueColor} stroke={blueColor} strokeWidth="4" strokeLinejoin="round">R</text>
+      <text x="155" y="85" fontFamily="Arial Black, Impact, sans-serif" fontSize="62" fontWeight="900" fill={blueColor} stroke={blueColor} strokeWidth="4" strokeLinejoin="round">S</text>
+
+      {/* Handle (Drawn before stem so joint is hidden) */}
       <path 
-        d="M 145 60 V 73 A 10 10 0 0 0 165 73 V 62" 
+        d="M 125 70 V 88 A 9 9 0 0 0 143 88 V 75" 
         fill="none" 
         stroke={redColor} 
-        strokeWidth="12" 
+        strokeWidth="10" 
         strokeLinecap="round" 
       />
 
       {/* Stem of the 'I' */}
-      <rect x="139" y="40" width="12" height="25" rx="1" fill={blueColor} />
+      <rect x="120" y="50" width="10" height="25" rx="2" fill={blueColor} />
 
-      {/* Umbrella Canopy */}
+      {/* Umbrella Canopy with Asymmetrical Scallops */}
       <path 
-        d="M 105 50 
-           A 40 40 0 0 1 185 50 
-           A 20 20 0 0 0 158.33 50
-           A 20 20 0 0 0 131.66 50
-           A 20 20 0 0 0 105 50 Z" 
+        d="M 75 55 
+           A 50 50 0 0 1 175 55 
+           A 22 22 0 0 0 135 55
+           A 12 12 0 0 0 115 55
+           A 22 22 0 0 0 75 55 Z" 
         fill={redColor} 
       />
 
       {/* Dot of the 'I' */}
-      <circle cx="145" cy="28" r="6" fill={blueColor} />
-
-      {/* N and R */}
-      <text x="5" y="85" fontFamily="Arial Black, Impact, sans-serif" fontSize="72" fontWeight="900" fill={blueColor} letterSpacing="-2">NR</text>
-
-      {/* S */}
-      <text x="178" y="85" fontFamily="Arial Black, Impact, sans-serif" fontSize="72" fontWeight="900" fill={blueColor}>S</text>
+      <circle cx="125" cy="28" r="5.5" fill={blueColor} />
     </svg>
   );
 }
